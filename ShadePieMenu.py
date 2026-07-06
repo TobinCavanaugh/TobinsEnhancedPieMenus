@@ -3,6 +3,7 @@ from bpy.types import Menu
 
 # 1. Operator for MatCap Normals (SW Slot)
 class VIEW3D_OT_set_matcap_normal(bpy.types.Operator):
+    """Switch shading to Solid with MatCap Normals check map (for analyzing surface orientation)"""
     bl_idname = "view3d.set_matcap_normal"
     bl_label = "Switch to MatCap Normals"
     bl_options = {'REGISTER', 'UNDO'}
@@ -16,6 +17,7 @@ class VIEW3D_OT_set_matcap_normal(bpy.types.Operator):
 
 # 2. Operator for Default Solid View (Right Slot)
 class VIEW3D_OT_set_shading_solid_default(bpy.types.Operator):
+    """Switch shading to standard Solid view with default studio lighting and Material colors"""
     bl_idname = "view3d.set_shading_solid_default"
     bl_label = "Switch to Default Solid"
     bl_options = {'REGISTER', 'UNDO'}
@@ -30,6 +32,7 @@ class VIEW3D_OT_set_shading_solid_default(bpy.types.Operator):
 
 # 3. Operator for Random Color Solid View (SE Slot)
 class VIEW3D_OT_set_shading_solid_random(bpy.types.Operator):
+    """Switch shading to Solid view with random colors assigned to each object"""
     bl_idname = "view3d.set_shading_solid_random"
     bl_label = "Switch to Random Solid"
     bl_options = {'REGISTER', 'UNDO'}
@@ -44,6 +47,7 @@ class VIEW3D_OT_set_shading_solid_random(bpy.types.Operator):
 
 # 4. Operator for Eevee Engine (NW Slot)
 class VIEW3D_OT_set_engine_eevee(bpy.types.Operator):
+    """Switch the current scene render engine to Eevee"""
     bl_idname = "view3d.set_engine_eevee"
     bl_label = "Switch Engine to Eevee"
     bl_options = {'REGISTER', 'UNDO'}
@@ -54,6 +58,7 @@ class VIEW3D_OT_set_engine_eevee(bpy.types.Operator):
 
 # 5. Operator for Cycles Engine + GPU Auto-detection (NE Slot)
 class VIEW3D_OT_set_engine_cycles(bpy.types.Operator):
+    """Switch the current scene render engine to Cycles and auto-detect/enable GPU compute"""
     bl_idname = "view3d.set_engine_cycles"
     bl_label = "Switch Engine to Cycles (GPU)"
     bl_options = {'REGISTER', 'UNDO'}
@@ -96,6 +101,7 @@ class VIEW3D_OT_set_engine_cycles(bpy.types.Operator):
 
 # 6. Re-create the Shading Pie Menu
 class CUSTOM_VIEW3D_MT_shading_pie(Menu):
+    """Custom pie menu to quickly change shading types and switch render engines"""
     bl_label = "Shading / Engine"
     bl_idname = "VIEW3D_MT_shading_pie"
 

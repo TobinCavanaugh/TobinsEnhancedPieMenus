@@ -4,7 +4,7 @@ bl_info = {
     "version": (1, 0, 0),
     "blender": (5, 1, 2),
     "location": "View3D",
-    "description": "Custom shading configurations and advanced camera operations from pie menus. Among several other things",
+    "description": "Custom shading configurations and advanced camera operations from pie menus.",
     "category": "3D View",
 }
 

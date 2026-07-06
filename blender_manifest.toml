@@ -1,13 +1,13 @@
 schema_version = "1.0.0"
 id = "tobins_enhanced_pie"
 version = "1.0.0"
-name = "Tobin's Enhanced Pie Menu"
+name = "Tobin's Enhanced Pie Menus"
 tagline = "Useful pie menus for common activities"
+description = "Custom shading configurations and advanced camera operations from pie menus."
 maintainer = "Tobin Cavanaugh <tobincavanaugh@gmail.com>"
 type = "add-on"
 website = "https://github.com/TobinCavanaugh/TobinsEnhancedPieMenus"
-tags = ["User Interface"]
-blender_version_min = "5.1.0"
-license = ["SPDX:GPL-3.0-or-later"]
-
-[permissions]
+tags = ["3D View", "User Interface"]
+blender_version_min = "5.1.2"
+license = ["MIT + Commons Clause 1.0"]
+copyright = ["2026 Tobin Cavanaugh"]
