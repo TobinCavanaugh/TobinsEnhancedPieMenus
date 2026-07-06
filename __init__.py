@@ -1,7 +1,7 @@
 bl_info = {
     "name": "Tobin's Enhanced Pie Menus",
     "author": "Tobin Cavanaugh",
-    "version": (1, 0, 0),
+    "version": (1, 0, 1),
     "blender": (5, 1, 2),
     "location": "View3D",
     "description": "Custom shading configurations and advanced camera operations from pie menus.",

@@ -1,6 +1,6 @@
 schema_version = "1.0.0"
 id = "tobins_enhanced_pie"
-version = "1.0.0"
+version = "1.0.1"
 name = "Tobin's Enhanced Pie Menus"
 tagline = "Useful pie menus for common activities"
 description = "Custom shading configurations and advanced camera operations from pie menus."
