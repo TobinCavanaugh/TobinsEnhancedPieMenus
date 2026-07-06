@@ -20,18 +20,18 @@ jobs:
         run: |
           # Use zip to compress the files
           # Excludes git configs, local helper scripts, test files, and media folder
-          zip -r TobinsEnhancedPieMenus.zip . \
+          zip -r TobinsEnhancedPieMenus_${{ github.ref_name }}.zip . \
             -x "*.git*" \
             -x "*.gitignore" \
             -x "zip.ps1" \
             -x "TestProjects/*" \
             -x "media/*" \
-            -x "TobinsEnhancedPieMenus.zip"
+            -x "*.zip"
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          files: TobinsEnhancedPieMenus.zip
+          files: TobinsEnhancedPieMenus_${{ github.ref_name }}.zip
           draft: false
           prerelease: false
           generate_release_notes: true
