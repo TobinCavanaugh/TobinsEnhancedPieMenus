@@ -24,8 +24,7 @@ Custom shading configurations and advanced camera operations via pie menus for B
 ## Installation
 
 1. Package the addon as a `.zip` (see building instructions below).
-2. Open Blender, navigate to **Edit > Preferences > Extensions**.
-3. Install the `.zip` file from disk.
+2. Open Blender, navigate to **Edit > Preferences > Add-ons > Down Arrow (Top Right) > Install From Disk > Select the `.zip` release file**.
 
 ## Packaging
 
