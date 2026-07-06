@@ -37,4 +37,4 @@ This excludes development configuration files and outputs a clean `TobinsEnhance
 
 ## License
 
-Source-Available under the [MIT + Commons Clause 1.0 License](LICENSE). Free for personal and commercial integration; direct commercial resale of the addon itself is prohibited.
+This addon is licensed under the [GNU General Public License v3.0 (GPL-3.0-or-later)](LICENSE), complying with the Blender Extensions Platform guidelines.

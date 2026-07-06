@@ -9,5 +9,5 @@ type = "add-on"
 website = "https://github.com/TobinCavanaugh/TobinsEnhancedPieMenus"
 tags = ["3D View", "User Interface"]
 blender_version_min = "5.1.2"
-license = ["MIT + Commons Clause 1.0"]
+license = ["SPDX:GPL-3.0-or-later"]
 copyright = ["2026 Tobin Cavanaugh"]
