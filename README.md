@@ -2,6 +2,10 @@
 
 Custom shading configurations and advanced camera operations via pie menus for Blender 5.1.2+.
 
+| Shading / Engine Menu (Hotkey: Z) | Camera Management Menu (Hotkey: Alt + C) |
+| :---: | :---: |
+| ![Shading Pie Menu Demo](media/shader-pie.gif) | ![Camera Pie Menu Demo](media/camera-pie.gif) |
+
 ## Features
 
 ### Shading / Engine Pie Menu (Replaces native shading pie)
