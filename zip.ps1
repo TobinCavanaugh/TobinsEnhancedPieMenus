@@ -8,7 +8,8 @@ $Exclusions = @(
     "zip.ps1",
     $ZipName,
     "TestProjects/*",
-    ".git/*"
+    ".git/*",
+    "media/*"
 )
 
 # 2. Get all local files recursively, filtering out the exclusions
